@@ -28,7 +28,7 @@ const Voronoi = () => {
                 xDomain={[0, 100]}
                 yDomain={[0, 100]}
                 enableLinks={true}
-                linkLineColor={colors.grey[900]}
+                linkLineColor={colors.grey[100]}
                 cellLineColor={colors.secondary.main}
                 pointColor={colors.primary.main}
                 margin={{ top: 1, right: 1, bottom: 1, left: 1 }}

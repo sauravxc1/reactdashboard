@@ -15,7 +15,7 @@ import Geography from "./scenes/geography/Geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Calendar from "./scenes/calendar/calendar";
-import Voronoi from "./components/Voronoi";
+// import Voronoi from "./components/Voronoi";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -41,7 +41,7 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/geography" element={<Geography />} />
-              <Route path="/voronoi" element={<Voronoi/>}/>
+              {/* <Route path="/voronoi" element={<Voronoi/>}/> */}
             </Routes>
           </main>
         </div>
